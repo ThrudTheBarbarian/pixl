@@ -1,0 +1,42 @@
+
+# Efinity Interface Configuration
+# Version: 2020.2.299.4.5
+# Date: 2021-02-28 20:14
+
+# Copyright (C) 2017 - 2020 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 160, 17, 1, __bypass__, a8_addr[0]
+input, 160, 39, 3, __bypass__, a8_addr[1]
+input, 126, 0, 1, __bypass__, a8_addr[2]
+input, 135, 0, 3, __bypass__, a8_addr[3]
+input, 136, 0, 1, __bypass__, a8_addr[4]
+input, 160, 14, 3, __bypass__, a8_addr[5]
+input, 140, 0, 3, __bypass__, a8_addr[6]
+input, 160, 19, 3, __bypass__, a8_addr[7]
+input, 160, 49, 3, __bypass__, a8_addr[8]
+input, 160, 37, 1, __bypass__, a8_addr[9]
+input, 160, 102, 1, __bypass__, a8_addr[10]
+input, 160, 89, 3, __bypass__, a8_addr[11]
+input, 160, 72, 1, __bypass__, a8_addr[12]
+input, 160, 159, 3, __bypass__, a8_addr[13]
+input, 160, 199, 3, __bypass__, a8_addr[14]
+input, 160, 219, 3, __bypass__, a8_addr[15]
+input, 160, 132, 1, __bypass__, a8_clk
+input, 160, 97, 1, __bypass__, a8_data[0]
+input, 160, 87, 1, __bypass__, a8_data[1]
+input, 160, 82, 1, __bypass__, a8_data[2]
+input, 160, 84, 3, __bypass__, a8_data[3]
+input, 160, 47, 1, __bypass__, a8_data[4]
+input, 160, 52, 1, __bypass__, a8_data[5]
+input, 160, 104, 3, __bypass__, a8_data[6]
+input, 160, 74, 3, __bypass__, a8_data[7]
+input, 160, 144, 3, __bypass__, a8_extsel_n
+input, 160, 184, 3, __bypass__, a8_halt_n
+input, 160, 169, 3, __bypass__, a8_irq_n
+output, 160, 179, 2, __bypass__, a8_mpd_n
+input, 125, 0, 3, __bypass__, a8_rd4
+input, 160, 137, 1, __bypass__, a8_rd5
+input, 160, 209, 3, __bypass__, a8_ref_n
+input, 160, 174, 3, __bypass__, a8_rst_n
+input, 160, 107, 1, __bypass__, a8_rw_n

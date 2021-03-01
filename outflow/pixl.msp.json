@@ -1,0 +1,112 @@
+{
+    "version": "1.0.0",
+    "top_module": "pixl",
+    "postmap": [
+        {
+            "clock_name": "",
+            "nets": [
+                {
+                    "name": "vcc",
+                    "width": 1
+                },
+                {
+                    "name": "a8_mpd_n",
+                    "width": 1
+                },
+                {
+                    "name": "a8_rst_n",
+                    "width": 1
+                },
+                {
+                    "name": "a8_clk",
+                    "width": 1
+                }
+            ]
+        },
+        {
+            "clock_name": "clk200",
+            "nets": [
+                {
+                    "name": "n36",
+                    "width": 1
+                },
+                {
+                    "name": "n37",
+                    "width": 1
+                },
+                {
+                    "name": "n38",
+                    "width": 1
+                },
+                {
+                    "name": "n39",
+                    "width": 1
+                },
+                {
+                    "name": "a8_extsel_n",
+                    "width": 1
+                },
+                {
+                    "name": "n48",
+                    "width": 1
+                },
+                {
+                    "name": "n50",
+                    "width": 1
+                },
+                {
+                    "name": "n51",
+                    "width": 1
+                },
+                {
+                    "name": "n52",
+                    "width": 1
+                },
+                {
+                    "name": "n53",
+                    "width": 1
+                },
+                {
+                    "name": "n54",
+                    "width": 1
+                },
+                {
+                    "name": "n55",
+                    "width": 1
+                },
+                {
+                    "name": "n65",
+                    "width": 1
+                },
+                {
+                    "name": "n69",
+                    "width": 1
+                },
+                {
+                    "name": "clk200~O",
+                    "width": 1
+                },
+                {
+                    "name": "n85",
+                    "width": 1
+                },
+                {
+                    "name": "n86",
+                    "width": 1
+                },
+                {
+                    "name": "n87",
+                    "width": 1
+                },
+                {
+                    "name": "monitor\/clkDetect",
+                    "width": 3
+                },
+                {
+                    "name": "monitor\/ticks",
+                    "width": 7
+                }
+            ]
+        }
+    ]
+}

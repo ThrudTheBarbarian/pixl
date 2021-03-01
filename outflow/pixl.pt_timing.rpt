@@ -1,0 +1,68 @@
+
+Efinity Interface Designer Timing Report
+Version: 2020.2.299.4.5
+Date: 2021-02-28 20:14
+
+Copyright (C) 2017 - 2020 Efinix Inc. All rights reserved.
+
+Device: T20F256
+Project: pixl
+Timing Model: C4 (final)
+
+---------- 1. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-------------+-----------+----------+----------+
+| Instance Name |   Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+-------------+-----------+----------+----------+
+|   a8_addr[0]  |  a8_addr[0] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_addr[1]  |  a8_addr[1] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_addr[5]  |  a8_addr[5] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_addr[7]  |  a8_addr[7] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_addr[8]  |  a8_addr[8] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_addr[9]  |  a8_addr[9] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[10]  | a8_addr[10] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[11]  | a8_addr[11] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[12]  | a8_addr[12] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[13]  | a8_addr[13] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[14]  | a8_addr[14] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_addr[15]  | a8_addr[15] |  GPIO_IN  |  1.396   |  0.698   |
+|     a8_clk    |    a8_clk   |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[0]  |  a8_data[0] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[1]  |  a8_data[1] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[2]  |  a8_data[2] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[3]  |  a8_data[3] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[4]  |  a8_data[4] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[5]  |  a8_data[5] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[6]  |  a8_data[6] |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_data[7]  |  a8_data[7] |  GPIO_IN  |  1.396   |  0.698   |
+|  a8_extsel_n  | a8_extsel_n |  GPIO_IN  |  1.396   |  0.698   |
+|   a8_halt_n   |  a8_halt_n  |  GPIO_IN  |  1.396   |  0.698   |
+|    a8_irq_n   |   a8_irq_n  |  GPIO_IN  |  1.396   |  0.698   |
+|     a8_rd5    |    a8_rd5   |  GPIO_IN  |  1.396   |  0.698   |
+|    a8_ref_n   |   a8_ref_n  |  GPIO_IN  |  1.396   |  0.698   |
+|    a8_rst_n   |   a8_rst_n  |  GPIO_IN  |  1.396   |  0.698   |
+|    a8_rw_n    |   a8_rw_n   |  GPIO_IN  |  1.396   |  0.698   |
+|    a8_mpd_n   |   a8_mpd_n  |  GPIO_OUT |  3.829   |  1.915   |
++---------------+-------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 2. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+------------+-----------+----------+----------+
+| Instance Name |  Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+------------+-----------+----------+----------+
+|   a8_addr[2]  | a8_addr[2] |  GPIO_IN  |  1.714   |  0.857   |
+|   a8_addr[3]  | a8_addr[3] |  GPIO_IN  |  1.714   |  0.857   |
+|   a8_addr[4]  | a8_addr[4] |  GPIO_IN  |  1.714   |  0.857   |
+|   a8_addr[6]  | a8_addr[6] |  GPIO_IN  |  1.714   |  0.857   |
+|     a8_rd4    |   a8_rd4   |  GPIO_IN  |  1.714   |  0.857   |
++---------------+------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------

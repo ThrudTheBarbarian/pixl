@@ -1,0 +1,256 @@
+
+Efinity Interface Designer Report
+Version: 2020.2.299.4.5
+Date: 2021-02-28 20:14
+
+Copyright (C) 2017 - 2020 Efinix Inc. All rights reserved.
+
+Device: T20F256
+Project: pixl
+
+Package: 256-ball FBGA (final)
+Timing Model: C4 (final)
+Configuration Mode: active (x1)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. Clock Mux Usage Summary
+   12. Configuration Control Usage Summary
+   13. JTAG Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+gpio: 29 / 141 (20.57%)
+jtag: 0 / 2 (0.0%)
+lvds_bg: 0 / 1 (0.0%)
+lvds_rx: 2.5 / 14 (17.86%)
+	gpio: 5
+lvds_tx: 0 / 13 (0.0%)
+pll: 0 / 5 (0.0%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: pixl.interface.csv
+Peripheral Block Configuration: pixl.lpf
+Pinout Report: pixl.pinout.rpt
+Pinout CSV: pixl.pinout.csv
+Timing Report: pixl.pt_timing.rpt
+Timing SDC Template: pixl.pt.sdc
+Verilog Template: pixl_template.v
+Option Register File: pixl_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+-------------+
+| I/O Bank | I/O Voltage |
++----------+-------------+
+|    1A    |    3.3 V    |
+|  1B_1C   |    3.3 V    |
+|  1D_1E   |    3.3 V    |
+| 3A_3B_3C |    3.3 V    |
+|  3D_3E   |    3.3 V    |
+|    4A    |    3.3 V    |
+|    4B    |    3.3 V    |
+|    BR    |    1.2 V    |
+|    TL    |    1.2 V    |
+|    TR    |    1.2 V    |
++----------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++-------------+---------------+-------+
+|   Pin Name  |    Resource   |  Type |
++-------------+---------------+-------+
+| a8_addr[10] | GPIOR_124.ALT |  GCLK |
+| a8_addr[11] | GPIOR_129.ALT | GCTRL |
+|    a8_clk   | GPIOR_120.ALT |  GCLK |
+|  a8_data[0] | GPIOR_126.ALT |  GCLK |
+|  a8_data[1] | GPIOR_130.ALT | GCTRL |
+|  a8_data[3] | GPIOR_131.ALT | GCTRL |
+|  a8_data[6] | GPIOR_123.ALT |  GCLK |
+| a8_extsel_n | GPIOR_116.ALT | GCTRL |
+|    a8_rd5   | GPIOR_119.ALT | GCTRL |
+|   a8_rw_n   | GPIOR_122.ALT |  GCLK |
++-------------+---------------+-------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      0/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L2      |      0/4       |
+|      R0      |      0/4       |
+|      R1      |      0/4       |
+|      R2      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
++---------------+----------+
+| Instance Name | Function |
++---------------+----------+
+|  a8_addr[12]  |  CDI16   |
+|  a8_addr[13]  |  CDI23   |
+|   a8_data[2]  |  CDI19   |
+|   a8_data[6]  |  CDI20   |
+|   a8_data[7]  |  CDI17   |
+|   a8_halt_n   |  CDI25   |
+|    a8_ref_n   |  CDI27   |
+|    a8_rw_n    |  CDI21   |
++---------------+----------+
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+----------+--------------+----------+----------------------+-----------------------+-------------+
+| Instance Name |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |        Pad Name       | Package Pin |
++---------------+-------------+--------+----------+--------------+----------+----------------------+-----------------------+-------------+
+|   a8_addr[0]  |  GPIOR_154  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_154       |     N16     |
+|   a8_addr[1]  |  GPIOR_146  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_146       |     P16     |
+|   a8_addr[2]  | GPIOB_RXN09 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |      GPIOB_RXN09      |     R14     |
+|   a8_addr[3]  | GPIOB_RXP11 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |      GPIOB_RXP11      |     T15     |
+|   a8_addr[4]  | GPIOB_RXN11 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |      GPIOB_RXN11      |     R15     |
+|   a8_addr[5]  |  GPIOR_155  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_155       |     P15     |
+|   a8_addr[6]  | GPIOB_RXP12 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |   GPIOB_RXP12_EXTFB0  |     P14     |
+|   a8_addr[7]  |  GPIOR_153  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_153       |     N14     |
+|   a8_addr[8]  |  GPIOR_144  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_144       |     M15     |
+|   a8_addr[9]  |  GPIOR_147  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_147       |     L15     |
+|  a8_addr[10]  |  GPIOR_124  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_124_CLK11    |     G15     |
+|  a8_addr[11]  |  GPIOR_129  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_129_CTRL10   |     H15     |
+|  a8_addr[12]  |  GPIOR_136  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_136_CDI16    |     K15     |
+|  a8_addr[13]  |  GPIOR_112  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |    GPIOR_112_CDI23    |     C15     |
+|  a8_addr[14]  |   GPIOR_98  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |        GPIOR_98       |     B15     |
+|  a8_addr[15]  |   GPIOR_90  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |        GPIOR_90       |     A14     |
+|     a8_clk    |  GPIOR_120  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |    GPIOR_120_CLK15    |     E15     |
+|   a8_data[0]  |  GPIOR_126  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |     GPIOR_126_CLK9    |     G16     |
+|   a8_data[1]  |  GPIOR_130  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_130_CTRL9    |     H16     |
+|   a8_data[2]  |  GPIOR_132  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_132_CDI19    |     K16     |
+|   a8_data[3]  |  GPIOR_131  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_131_CTRL8    |     J15     |
+|   a8_data[4]  |  GPIOR_145  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_145       |     M16     |
+|   a8_data[5]  |  GPIOR_143  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |       GPIOR_143       |     L16     |
+|   a8_data[6]  |  GPIOR_123  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS | GPIOR_123_CLK12_CDI20 |     F16     |
+|   a8_data[7]  |  GPIOR_135  | input  |          |              |  3D_3E   | 3.3 V LVTTL / LVCMOS |    GPIOR_135_CDI17    |     J14     |
+|  a8_extsel_n  |  GPIOR_116  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |    GPIOR_116_CTRL15   |     D16     |
+|   a8_halt_n   |  GPIOR_104  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |    GPIOR_104_CDI25    |     D14     |
+|    a8_irq_n   |  GPIOR_110  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |       GPIOR_110       |     E14     |
+|    a8_mpd_n   |  GPIOR_106  | output |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |       GPIOR_106       |     B16     |
+|     a8_rd4    | GPIOB_RXP09 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |      GPIOB_RXP09      |     T14     |
+|     a8_rd5    |  GPIOR_119  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |    GPIOR_119_CTRL12   |     E16     |
+|    a8_ref_n   |   GPIOR_94  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |     GPIOR_94_CDI27    |     A15     |
+|    a8_rst_n   |  GPIOR_108  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS |       GPIOR_108       |     C16     |
+|    a8_rw_n    |  GPIOR_122  | input  |          |              | 3A_3B_3C | 3.3 V LVTTL / LVCMOS | GPIOR_122_CLK13_CDI21 |     F15     |
++---------------+-------------+--------+----------+--------------+----------+----------------------+-----------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name |  Input Pin  | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+|   a8_addr[0]  |  a8_addr[0] |                     |                 |     none     |     Disable     | none |
+|   a8_addr[1]  |  a8_addr[1] |                     |                 |     none     |     Disable     | none |
+|   a8_addr[2]  |  a8_addr[2] |                     |                 |     none     |     Disable     |      |
+|   a8_addr[3]  |  a8_addr[3] |                     |                 |     none     |     Disable     |      |
+|   a8_addr[4]  |  a8_addr[4] |                     |                 |     none     |     Disable     |      |
+|   a8_addr[5]  |  a8_addr[5] |                     |                 |     none     |     Disable     | none |
+|   a8_addr[6]  |  a8_addr[6] |                     |                 |     none     |     Disable     |      |
+|   a8_addr[7]  |  a8_addr[7] |                     |                 |     none     |     Disable     | none |
+|   a8_addr[8]  |  a8_addr[8] |                     |                 |     none     |     Disable     | none |
+|   a8_addr[9]  |  a8_addr[9] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[10]  | a8_addr[10] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[11]  | a8_addr[11] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[12]  | a8_addr[12] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[13]  | a8_addr[13] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[14]  | a8_addr[14] |                     |                 |     none     |     Disable     | none |
+|  a8_addr[15]  | a8_addr[15] |                     |                 |     none     |     Disable     | none |
+|     a8_clk    |    a8_clk   |                     |                 |     none     |     Disable     | none |
+|   a8_data[0]  |  a8_data[0] |                     |                 |     none     |     Disable     | none |
+|   a8_data[1]  |  a8_data[1] |                     |                 |     none     |     Disable     | none |
+|   a8_data[2]  |  a8_data[2] |                     |                 |     none     |     Disable     | none |
+|   a8_data[3]  |  a8_data[3] |                     |                 |     none     |     Disable     | none |
+|   a8_data[4]  |  a8_data[4] |                     |                 |     none     |     Disable     | none |
+|   a8_data[5]  |  a8_data[5] |                     |                 |     none     |     Disable     | none |
+|   a8_data[6]  |  a8_data[6] |                     |                 |     none     |     Disable     | none |
+|   a8_data[7]  |  a8_data[7] |                     |                 |     none     |     Disable     | none |
+|  a8_extsel_n  | a8_extsel_n |                     |                 |     none     |     Disable     | none |
+|   a8_halt_n   |  a8_halt_n  |                     |                 |     none     |     Disable     | none |
+|    a8_irq_n   |   a8_irq_n  |                     |                 |     none     |     Disable     | none |
+|     a8_rd4    |    a8_rd4   |                     |                 |     none     |     Disable     |      |
+|     a8_rd5    |    a8_rd5   |                     |                 |     none     |     Disable     | none |
+|    a8_ref_n   |   a8_ref_n  |                     |                 |     none     |     Disable     | none |
+|    a8_rst_n   |   a8_rst_n  |                     |                 |     none     |     Disable     | none |
+|    a8_rw_n    |   a8_rw_n   |                     |                 |     none     |     Disable     | none |
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+------------+------------------+----------------+-----------+------+
+| Instance Name | Output Pin | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+------------+------------------+----------------+-----------+------+
+|    a8_mpd_n   |  a8_mpd_n  |                  |       1        |  Disable  | none |
++---------------+------------+------------------+----------------+-----------+------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
+No PLL was configured
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. Clock Mux Usage Summary (begin) ----------
+
+No Clock Mux was configured
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 12. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 13. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------

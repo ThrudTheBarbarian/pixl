@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="2021-02-28 20:14" project="pixl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+  <efx:group name="Periphery Resource">
+    <efx:group_data name="GPIO" severity="info" value="29 / 141"/>
+    <efx:group_data name="JTAG User TAP" severity="info" value="0 / 2"/>
+    <efx:group_data name="LVDS RX" severity="info" value="2.5 / 14"/>
+    <efx:group_data name="LVDS TX" severity="info" value="0 / 13"/>
+    <efx:group_data name="PLL" severity="info" value="0 / 5"/>
+  </efx:group>
+</efx:tool_report>

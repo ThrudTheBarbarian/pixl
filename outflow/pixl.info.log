@@ -1,0 +1,919 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:36
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 41) syntax error near ')' (VERI-1137)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:56
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 71) syntax error near ''b' (VERI-1137)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 72) empty statement in sequential block (VERI-1988)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 81) syntax error near 'end' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 81) Verilog 2000 keyword end used in incorrect context (VERI-2344)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 82) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:49:04
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 71) syntax error near ''b' (VERI-1137)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 72) empty statement in sequential block (VERI-1988)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:53:11
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:54:09
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:55:14
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76956KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 76956KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77580KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77580KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77580KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77580KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77580KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 82516KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 0
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112036KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112400KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112400KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 112400KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_extsel_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0012 VERI-INFO] Found 34 warnings in the post-synthesis netlist.
+[EFX-0012 VERI-INFO] Found 1 errors in the post-synthesis netlist.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:05:38
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 81) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77108KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 82644KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 1, ed: 3, lv: 1
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110684KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110684KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 110684KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110684KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_extsel_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0012 VERI-INFO] Found 34 warnings in the post-synthesis netlist.
+[EFX-0012 VERI-INFO] Found 1 errors in the post-synthesis netlist.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:02
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 41) ansi port 'a8_extsel_n' cannot be redeclared (VERI-2285)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 34) non-net port 'a8_extsel_n' cannot be of mode input (VERI-1325)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 98) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 104) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:27
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 89) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0256 WARNING] The primary output port 'a8_extsel_n' wire 'a8_extsel_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_extsel_n'.
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[255]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[254]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[253]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[252]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[251]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[250]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[249]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[248]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[247]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[246]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[245]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[244]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[243]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[242]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[241]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[240]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[239]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[238]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[237]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[236]
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77248KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83048KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 1, ed: 3, lv: 1
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110812KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110812KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110812KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 110812KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0012 VERI-INFO] Found 33 warnings in the post-synthesis netlist.
+[EFX-0012 VERI-INFO] Found 1 errors in the post-synthesis netlist.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:24:25
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77768KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83304KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 1, ed: 3, lv: 1
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111344KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111344KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111344KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111344KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0012 VERI-INFO] Found 33 warnings in the post-synthesis netlist.
+[EFX-0012 VERI-INFO] Found 1 errors in the post-synthesis netlist.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:27:28
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77792KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83268KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 5, ed: 16, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111400KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111400KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111400KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111400KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 30 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	6
+[EFX-0000 INFO] EFX_LUT4        : 	5
+[EFX-0000 INFO] EFX_FF          : 	11
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:08:07
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Mapping design "bus_a8"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77692KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83048KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 5, ed: 16, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111184KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111184KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 30 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	6
+[EFX-0000 INFO] EFX_LUT4        : 	5
+[EFX-0000 INFO] EFX_FF          : 	11
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:14:32
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/pixl.v 8) compiling module 'pixl' (VERI-1018)
+[EFX-0012 VERI-INFO] (/home/simon/src/verilog/pixl/bus_a8.v 26) compiling module 'bus_a8' (VERI-1018)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 195) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 247) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 299) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 359) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 431) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 536) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 598) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 690) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 791) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v 921) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 30) Removing unconnected net : a8_rw_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 31) Removing unconnected net : a8_halt_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 32) Removing unconnected net : a8_irq_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[7]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[6]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[5]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[4]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[3]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[2]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[1]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[0]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 36) Removing unconnected net : a8_rd5
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 37) Removing unconnected net : a8_rd4
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 38) Removing unconnected net : a8_ref_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Removing unconnected net : a8_mpd_n
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Mapping design "pixl"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pixl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pixl" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/pixl.v 21) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83692KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 5, ed: 16, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 30 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	6
+[EFX-0000 INFO] EFX_LUT4        : 	5
+[EFX-0000 INFO] EFX_FF          : 	11
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

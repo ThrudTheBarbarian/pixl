@@ -1,0 +1,8 @@
+Module Resource Usage Distribution Estimates
+Generated at: Feb 28, 2021 20:14:32
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+pixl:pixl       	      11(0)	       6(0)	       5(0)	     0(0)	     0(0)	
++monitor:bus_a8 	     11(11)	       6(6)	       5(5)	     0(0)	     0(0)	

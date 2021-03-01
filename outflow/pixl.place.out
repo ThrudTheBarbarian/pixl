@@ -1,0 +1,140 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2020.2.299.4.5 
+Compiled: Feb  9 2021.
+
+Copyright (C) 2013 - 2020 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T20F256" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "/home/simon/src/verilog/pixl/pixl.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0057703 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 126.852 MB, end = 126.852 MB, delta = 0 MB
+VDB Netlist Checker resident set memory usage: begin = 35.696 MB, end = 35.696 MB, delta = 0 MB
+	VDB Netlist Checker peak resident set memory usage = 51.524 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from '/home/simon/src/verilog/pixl/outflow/pixl.interface.csv'.
+Successfully processed interface constraints file "/home/simon/src/verilog/pixl/outflow/pixl.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #2(a8_rw_n) has no fanout.
+Removing input.
+logical_block #3(a8_halt_n) has no fanout.
+Removing input.
+logical_block #4(a8_irq_n) has no fanout.
+Removing input.
+logical_block #5(a8_addr[15]) has no fanout.
+Removing input.
+logical_block #6(a8_addr[14]) has no fanout.
+Removing input.
+logical_block #7(a8_addr[13]) has no fanout.
+Removing input.
+logical_block #8(a8_addr[12]) has no fanout.
+Removing input.
+logical_block #9(a8_addr[11]) has no fanout.
+Removing input.
+logical_block #10(a8_addr[10]) has no fanout.
+Removing input.
+logical_block #11(a8_addr[9]) has no fanout.
+Removing input.
+logical_block #12(a8_addr[8]) has no fanout.
+Removing input.
+logical_block #13(a8_addr[7]) has no fanout.
+Removing input.
+logical_block #14(a8_addr[6]) has no fanout.
+Removing input.
+logical_block #15(a8_addr[5]) has no fanout.
+Removing input.
+logical_block #16(a8_addr[4]) has no fanout.
+Removing input.
+logical_block #17(a8_addr[3]) has no fanout.
+Removing input.
+logical_block #18(a8_addr[2]) has no fanout.
+Removing input.
+logical_block #19(a8_addr[1]) has no fanout.
+Removing input.
+logical_block #20(a8_addr[0]) has no fanout.
+Removing input.
+logical_block #21(a8_data[7]) has no fanout.
+Removing input.
+logical_block #22(a8_data[6]) has no fanout.
+Removing input.
+logical_block #23(a8_data[5]) has no fanout.
+Removing input.
+logical_block #24(a8_data[4]) has no fanout.
+Removing input.
+logical_block #25(a8_data[3]) has no fanout.
+Removing input.
+logical_block #26(a8_data[2]) has no fanout.
+Removing input.
+logical_block #27(a8_data[1]) has no fanout.
+Removing input.
+logical_block #28(a8_data[0]) has no fanout.
+Removing input.
+logical_block #30(a8_rd5) has no fanout.
+Removing input.
+logical_block #31(a8_rd4) has no fanout.
+Removing input.
+logical_block #32(a8_ref_n) has no fanout.
+Removing input.
+Pass 0: Swept away 30 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 30 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 30 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "/home/simon/src/verilog/pixl/pixl.vdb".
+Netlist pre-processing took 0.0171203 seconds.
+	Netlist pre-processing took 0.01 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 126.852 MB, end = 126.852 MB, delta = 0 MB
+Netlist pre-processing resident set memory usage: begin = 35.696 MB, end = 35.696 MB, delta = 0 MB
+	Netlist pre-processing peak resident set memory usage = 51.524 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "/home/simon/src/verilog/pixl/work_pnr/pixl.net_proto" took 0.000224 seconds
+Creating IO constraints file '/home/simon/src/verilog/pixl/work_pnr/pixl.io_place'
+Packing took 0.0500867 seconds.
+	Packing took 0.05 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 126.852 MB, end = 130.168 MB, delta = 3.316 MB
+Packing resident set memory usage: begin = 35.696 MB, end = 39.92 MB, delta = 4.224 MB
+	Packing peak resident set memory usage = 51.524 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file /home/simon/src/verilog/pixl/work_pnr/pixl.net_proto
+Read proto netlist for file "/home/simon/src/verilog/pixl/work_pnr/pixl.net_proto" took 8.9e-05 seconds
+Setup net and block data structure took 0.011443 seconds
+Packed netlist loading took 0.0185159 seconds.
+	Packed netlist loading took 0.02 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 130.168 MB, end = 130.168 MB, delta = 0 MB
+Packed netlist loading resident set memory usage: begin = 39.92 MB, end = 40.024 MB, delta = 0.104 MB
+	Packed netlist loading peak resident set memory usage = 51.524 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Defaulting to: constrain all 0 inputs and 0 outputs on the netlist clock.
+Optimize this virtual clock to run as fast as possible.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from '/home/simon/src/verilog/pixl/outflow/pixl.interface.csv'.
+Successfully processed interface constraints file "/home/simon/src/verilog/pixl/outflow/pixl.interface.csv".
+Writing IO placement constraints to '/home/simon/src/verilog/pixl/outflow/pixl.interface.io'.
+
+Reading placement constraints from '/home/simon/src/verilog/pixl/outflow/pixl.interface.io'.
+ERROR(1): [Line 36] Block a8_extsel_n is an output pad but sub-block 3 is not an output pad location.
+

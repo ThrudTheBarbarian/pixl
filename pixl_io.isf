@@ -1,0 +1,64 @@
+# Efinity GPIO Pin Assignment
+# Version: 2020.2.299.4.5
+# Date: 2021-02-28 18:20
+#
+# Copyright (C) 2017 - 2020 Efinix Inc. All rights reserved.
+#
+# Device: T20F256
+# Package: 256-ball FBGA (final)
+# Project: pixl
+# Configuration mode: active (x1)
+# Timing Model: C4 (final)
+
+
+# Create instance
+design.create_input_gpio("a8_addr",15,0)
+design.create_input_gpio("a8_data",7,0)
+design.create_input_gpio("a8_clk")
+design.create_input_gpio("a8_rw_n")
+design.create_input_gpio("a8_halt_n")
+design.create_input_gpio("a8_irq_n")
+design.create_input_gpio("a8_rst_n")
+design.create_input_gpio("a8_rd5")
+design.create_input_gpio("a8_rd4")
+design.create_input_gpio("a8_ref_n")
+design.create_output_gpio("a8_mpd_n")
+design.create_input_gpio("a8_extsel_n")
+
+# Set property, non-defaults
+
+# Set resource assignment
+design.assign_pkg_pin("a8_addr[0]","N16")
+design.assign_pkg_pin("a8_addr[1]","P16")
+design.assign_pkg_pin("a8_addr[2]","R14")
+design.assign_pkg_pin("a8_addr[3]","T15")
+design.assign_pkg_pin("a8_addr[4]","R15")
+design.assign_pkg_pin("a8_addr[5]","P15")
+design.assign_pkg_pin("a8_addr[6]","P14")
+design.assign_pkg_pin("a8_addr[7]","N14")
+design.assign_pkg_pin("a8_addr[8]","M15")
+design.assign_pkg_pin("a8_addr[9]","L15")
+design.assign_pkg_pin("a8_addr[10]","G15")
+design.assign_pkg_pin("a8_addr[11]","H15")
+design.assign_pkg_pin("a8_addr[12]","K15")
+design.assign_pkg_pin("a8_addr[13]","C15")
+design.assign_pkg_pin("a8_addr[14]","B15")
+design.assign_pkg_pin("a8_addr[15]","A14")
+design.assign_pkg_pin("a8_data[0]","G16")
+design.assign_pkg_pin("a8_data[1]","H16")
+design.assign_pkg_pin("a8_data[2]","K16")
+design.assign_pkg_pin("a8_data[3]","J15")
+design.assign_pkg_pin("a8_data[4]","M16")
+design.assign_pkg_pin("a8_data[5]","L16")
+design.assign_pkg_pin("a8_data[6]","F16")
+design.assign_pkg_pin("a8_data[7]","J14")
+design.assign_pkg_pin("a8_clk","E15")
+design.assign_pkg_pin("a8_rw_n","F15")
+design.assign_pkg_pin("a8_halt_n","D14")
+design.assign_pkg_pin("a8_irq_n","E14")
+design.assign_pkg_pin("a8_rst_n","C16")
+design.assign_pkg_pin("a8_rd5","E16")
+design.assign_pkg_pin("a8_rd4","T14")
+design.assign_pkg_pin("a8_ref_n","A15")
+design.assign_pkg_pin("a8_mpd_n","B16")
+design.assign_pkg_pin("a8_extsel_n","D16")

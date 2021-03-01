@@ -1,0 +1,168 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2020.2.299.4.5
+[EFX-0000 INFO] Compiled: Feb  9 2021.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2020 Efinix Inc. All rights reserved.
+
+INFO: Read project database "/home/simon/src/verilog/pixl/pixl.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: The default VHDL library search path is now "/raid/packages/efinity/2020.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file '/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file '/home/simon/src/verilog/pixl/pixl.v' (VERI-1482)
+-- Analyzing Verilog file '/home/simon/src/verilog/pixl/bus_a8.v' (VERI-1482)
+INFO: Analysis took 0.00745409 seconds.
+INFO: 	Analysis took 0.01 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 181.024 MB, end = 181.024 MB, delta = 0 MB
+INFO: Analysis resident set memory usage: begin = 70.98 MB, end = 71.976 MB, delta = 0.996 MB
+INFO: 	Analysis peak resident set memory usage = 71.976 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(195): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(247): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(299): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(359): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(431): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(536): INFO: compiling module 'RAMB5' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(598): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(690): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(791): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(921): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+/home/simon/src/verilog/pixl/pixl.v(8): INFO: compiling module 'pixl' (VERI-1018)
+/home/simon/src/verilog/pixl/bus_a8.v(26): INFO: compiling module 'bus_a8' (VERI-1018)
+/home/simon/src/verilog/pixl/bus_a8.v(51): WARNING: using initial value of 'page_map' since it is never assigned (VERI-1220)
+/home/simon/src/verilog/pixl/bus_a8.v(94): WARNING: expression size 8 truncated to fit in target size 7 (VERI-1209)
+INFO: Elaboration took 0.0101748 seconds.
+INFO: 	Elaboration took 0.01 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 181.024 MB, end = 182.212 MB, delta = 1.188 MB
+INFO: Elaboration resident set memory usage: begin = 71.976 MB, end = 76.38 MB, delta = 4.404 MB
+INFO: 	Elaboration peak resident set memory usage = 76.38 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file '/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(195): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(247): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(299): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(359): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(431): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(536): INFO: compiling module 'RAMB5' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(598): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(690): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(791): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+/raid/packages/efinity/2020.2/sim_models/maplib/efinix_maplib.v(921): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0122217 seconds.
+INFO: 	Reading Mapping Library took 0.02 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 182.508 MB, end = 182.904 MB, delta = 0.396 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 76.824 MB, end = 77.532 MB, delta = 0.708 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 77.532 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Mapping design "pixl"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bus_a8" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pixl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pixl" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 30) Removing unconnected net : a8_rw_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 31) Removing unconnected net : a8_halt_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 32) Removing unconnected net : a8_irq_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[7]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[6]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[5]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[4]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[3]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[2]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[1]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[0]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 36) Removing unconnected net : a8_rd5
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 37) Removing unconnected net : a8_rd4
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 38) Removing unconnected net : a8_ref_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Removing unconnected net : a8_mpd_n
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/pixl.v 21) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 77532KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 83692KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 5, ed: 16, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 111112KB)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port a8_rw_n is unconnected and will be removed
+WARNING: Input/Inout Port a8_halt_n is unconnected and will be removed
+WARNING: Input/Inout Port a8_irq_n is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[15] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[14] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[13] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[12] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[11] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[10] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[9] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[8] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[7] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[6] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[5] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[4] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[3] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[2] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[1] is unconnected and will be removed
+WARNING: Input/Inout Port a8_addr[0] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[7] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[6] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[5] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[4] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[3] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[2] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[1] is unconnected and will be removed
+WARNING: Input/Inout Port a8_data[0] is unconnected and will be removed
+WARNING: Input/Inout Port a8_rd5 is unconnected and will be removed
+WARNING: Input/Inout Port a8_rd4 is unconnected and will be removed
+WARNING: Input/Inout Port a8_ref_n is unconnected and will be removed
+INFO: Found 30 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.00640207 seconds.
+INFO: 	VDB Netlist Checker took 0.01 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 210.172 MB, end = 210.172 MB, delta = 0 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 111.112 MB, end = 111.112 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 111.112 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'pixl' to Verilog file '/home/simon/src/verilog/pixl/outflow/pixl.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	6
+[EFX-0000 INFO] EFX_LUT4        : 	5
+[EFX-0000 INFO] EFX_FF          : 	11
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

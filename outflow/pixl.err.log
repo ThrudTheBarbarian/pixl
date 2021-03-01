@@ -1,0 +1,106 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 41) syntax error near ')' (VERI-1137)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 71) syntax error near ''b' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 81) syntax error near 'end' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 81) Verilog 2000 keyword end used in incorrect context (VERI-2344)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 82) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:49:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 71) syntax error near ''b' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:53:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 77) syntax error near ''b' (VERI-1137)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:54:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 68) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 69) 'rst_n' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 83) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:55:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:05:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 41) ansi port 'a8_extsel_n' cannot be redeclared (VERI-2285)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 34) non-net port 'a8_extsel_n' cannot be of mode input (VERI-1325)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 98) 'clk' is not declared (VERI-1128)
+[EFX-0010 VERI-ERROR] (/home/simon/src/verilog/pixl/bus_a8.v 104) module 'bus_a8' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:24:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:27:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:08:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:14:32
+///////////////////////////////////
+

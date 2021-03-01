@@ -1,0 +1,367 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:47:56
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 72) empty statement in sequential block (VERI-1988)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:49:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 72) empty statement in sequential block (VERI-1988)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:53:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 78) empty statement in sequential block (VERI-1988)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:54:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 14:55:14
+///////////////////////////////////
+
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_extsel_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:05:38
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 81) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_extsel_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:21:27
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 89) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0256 WARNING] The primary output port 'a8_extsel_n' wire 'a8_extsel_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 40) Re-wiring to GND non-driven net 'a8_extsel_n'.
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[255]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[254]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[253]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[252]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[251]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[250]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[249]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[248]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[247]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[246]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[245]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[244]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[243]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[242]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[241]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[240]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[239]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[238]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[237]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) Removing unconnected net : page_map[236]
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:24:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port clk200 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_clk is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rst_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 15:27:28
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:08:07
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0256 WARNING] The primary output port 'a8_mpd_n' wire 'a8_mpd_n' is not driven.
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 28, 2021 20:14:32
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 51) using initial value of 'page_map' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 94) expression size 8 truncated to fit in target size 7 (VERI-1209)
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 30) Removing unconnected net : a8_rw_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 31) Removing unconnected net : a8_halt_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 32) Removing unconnected net : a8_irq_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[7]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[6]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[5]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[4]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[3]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[2]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[1]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 34) Removing unconnected net : a8_data[0]
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 36) Removing unconnected net : a8_rd5
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 37) Removing unconnected net : a8_rd4
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 38) Removing unconnected net : a8_ref_n
+[EFX-0200 WARNING] (/home/simon/src/verilog/pixl/bus_a8.v 39) Removing unconnected net : a8_mpd_n
+[EFX-0201 WARNING] (/home/simon/src/verilog/pixl/pixl.v 21) Re-wiring to GND non-driven net 'a8_mpd_n'.
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rw_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_halt_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_irq_n is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[15] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[14] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[13] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[12] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[11] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[10] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[9] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[8] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_addr[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[7] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[6] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[5] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[4] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[3] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_data[0] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd5 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_rd4 is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port a8_ref_n is unconnected and will be removed

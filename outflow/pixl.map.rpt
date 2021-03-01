@@ -1,0 +1,82 @@
+Synthesis report for project pixl
+Generated at: Feb 28, 2021 20:14:32
+Copyright (C) 2013 - 2020 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : pixl
+### ### File List (begin) ### ### ###
+/home/simon/src/verilog/pixl/pixl.v
+/home/simon/src/verilog/pixl/bus_a8.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 2
+Enable signal <vcc>, number of controlling flip flops: 10
+Enable signal <n69>, number of controlling flip flops: 1
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                   FFs        ADDs        LUTs      RAMs DSP/MULTs
+----------------         ---        ----        ----      ---- ---------
+pixl:pixl              11(0)        6(0)        5(0)      0(0)      0(0)
++monitor:bus_a8       11(11)        6(6)        5(5)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+  Clock     Flip-Flops   Memory Ports    Multipliers
+  -----     ----------   ------------    -----------
+ clk200             11              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T20F256
+project : pixl
+project-xml : /home/simon/src/verilog/pixl/pixl.xml
+root : pixl
+I : /home/simon/src/verilog/pixl
+output-dir : /home/simon/src/verilog/pixl/outflow
+work-dir : /home/simon/src/verilog/pixl/work_syn
+write-efx-verilog : /home/simon/src/verilog/pixl/outflow/pixl.map.v
+binary-db : /home/simon/src/verilog/pixl/pixl.vdb
+insert-ios : 0
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	33
+OUTPUT PORTS    : 	2
+
+EFX_ADD         : 	6
+EFX_LUT4        : 	5
+   1-2  Inputs  : 	0
+   3    Inputs  : 	4
+   4    Inputs  : 	1
+EFX_FF          : 	11
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s

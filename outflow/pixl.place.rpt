@@ -1,0 +1,23 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2020.2.299.4.5 
+Date: Sun Feb 28 20:14:39 2021
+
+Copyright (C) 2013 - 2020 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T20F256
+Top-level Entity Name: pixl
+
+---------- Resource Summary (begin) ----------
+Inputs: 3 / 470 (0.64%)
+Outputs: 2 / 595 (0.34%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 17 / 19728 (0.09%)
+	LE: LUTs/Adders: 13 / 19728 (0.07%)
+	LE: Registers: 11 / 13920 (0.08%)
+Memory Blocks: 0 / 204 (0.00%)
+Multipliers: 0 / 36 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
