@@ -2,6 +2,8 @@
 // Useful stuff shared across modules
 ///////////////////////////////////////////////////////////////////////////////
 
+`default_nettype 	none		// Try to catch error early...
+
 `define OP_NONE		2'b00
 `define OP_ADD		2'b01
 `define OP_DEL		2'b10

@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Mar  2 17:53:37 2021
+[*]
+[dumpfile] "/tmp/page.vcd"
+[dumpfile_mtime] "Tue Mar  2 17:52:49 2021"
+[dumpfile_size] 2740
+[savefile] "/home/simon/src/verilog/pixl/page_map.gtkw"
+[timestart] 0
+[size] 3034 920
+[pos] -1 -1
+*-13.120311 87500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] page_map_tb.
+[treeopen] page_map_tb.dut.
+[sst_width] 214
+[signals_width] 185
+[sst_expanded] 1
+[sst_vpaned_height] 264
+@28
+page_map_tb.dut.clk200
+page_map_tb.rst_n
+@200
+-
+@28
+page_map_tb.op[1:0]
+@22
+page_map_tb.from[7:0]
+@200
+-
+@22
+page_map_tb.size[7:0]
+page_map_tb.mask[255:0]
+@200
+-
+-
+-
+@28
+page_map_tb.dut.clk200
+page_map_tb.dut.state[1:0]
+@200
+-
+@22
+page_map_tb.dut.shift[7:0]
+page_map_tb.dut.mask_bits[255:0]
+page_map_tb.dut.at[8:0]
+page_map_tb.dut.extended[511:0]
+page_map_tb.dut.shifted_bits[255:0]
+@28
+page_map_tb.dut.op[1:0]
+@22
+page_map_tb.dut.mask_addr[7:0]
+@200
+-
+-
+@29
+page_map_tb.dut.clk200
+@22
+page_map_tb.dut.map[255:0]
+@28
+page_map_tb.dut.valid
+[pattern_trace] 1
+[pattern_trace] 0
