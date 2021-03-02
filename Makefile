@@ -1,4 +1,4 @@
-MODS	= pixl_tb pixl bus_a8
+MODS	= pixl_tb pixl bus_a8 page_map mask_ram
 SRCS	= $(addsuffix .v, $(MODS))
 PROG	= /tmp/pixl.bin
 
@@ -9,4 +9,4 @@ testbench: $(SRCS)
 	$(PROG)
 
 wave: testbench
-	gtkwave /tmp/wave.vcd
+	gtkwave /tmp/wave.vcd waves.gtkw

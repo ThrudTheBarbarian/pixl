@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Mar  2 06:25:31 2021
+[*]
+[dumpfile] "/tmp/wave.vcd"
+[dumpfile_mtime] "Tue Mar  2 06:24:37 2021"
+[dumpfile_size] 23927
+[savefile] "/home/simon/src/verilog/pixl/waves.gtkw"
+[timestart] 0
+[size] 3198 1073
+[pos] -1 -1
+*-17.927816 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pixl_tb.
+[treeopen] pixl_tb.dut.
+[treeopen] pixl_tb.dut.monitor.
+[treeopen] pixl_tb.dut.monitor.map.
+[sst_width] 214
+[signals_width] 160
+[sst_expanded] 1
+[sst_vpaned_height] 318
+@28
+pixl_tb.dut.monitor.clk200
+pixl_tb.dut.monitor.a8_clk
+pixl_tb.dut.monitor.a8_rst_n
+@200
+-
+@23
+pixl_tb.dut.monitor.pagemap[255:0]
+[pattern_trace] 1
+[pattern_trace] 0

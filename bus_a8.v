@@ -1,4 +1,5 @@
 `timescale 1ns/1ns
+`include "defines.v"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Bus monitor module. 
@@ -53,9 +54,14 @@ module bus_a8
 
     ///////////////////////////////////////////////////////////////////////////
     // Define a vector of bits, where a '1' means that page is to be sourced
-    // via the FPGA rather than from the A8 itself. 
+    // via the FPGA rather than from the A8 itself. This is linked through
+    // to the page_map module
     ///////////////////////////////////////////////////////////////////////////
-	reg		[255:0]		page_map		= 256'h40;
+	reg		[7:0]		map_from;			// Holds the lowest page number
+	reg		[7:0]		map_size;			// Holds the number of pages
+	reg		[1:0]		map_op = `OP_NONE;	// Operation to perform
+	wire				map_valid;			// Whether the map is now useable
+	wire	[255:0]		pagemap;
 	
     ///////////////////////////////////////////////////////////////////////////
     // Convenience bit-selections 
@@ -111,7 +117,7 @@ module bus_a8
 			a8_extsel_n <= 1'b1;
 			
 		else if (addressValid == 1'b1)
-			a8_extsel_n <= page_map[a8_addr_hi] ? 1'b0 : 1'b1;
+			a8_extsel_n <= pagemap[a8_addr_hi] ? 1'b0 : 1'b1;
 
 		else if (a8_clk_falling == 1'b1)
 			a8_extsel_n <= 1'b1;
@@ -139,10 +145,21 @@ module bus_a8
 				 & (a8_addr_hi == PAGE_MEM_AP)
 				 & (writeValid == 1'b1);
 	
-	// Instantiate module to update page-map. Pass in page_map as wire to
+	// Instantiate module to update page-map. Pass in pagemap as wire to
 	// reg in module, as well as apWrite as a start signal and a8_addr_lo
 	// and a8_data
-	
+				
+	page_map map
+		(
+		.clk200(clk200),
+		.a8_rst_n(a8_rst_n),
+		.op(map_op),
+		.from(map_from),
+		.size(map_size),
+		.valid(map_valid),
+		.map(pagemap)
+		);
+		
 	// Module should use 2-step selection/shift of all-ones / all-zeros in
 	// case stmt and use [ -: ] selection syntax
 	
