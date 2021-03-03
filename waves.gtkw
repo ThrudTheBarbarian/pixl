@@ -1,30 +1,74 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Tue Mar  2 06:25:31 2021
+[*] Wed Mar  3 06:03:25 2021
 [*]
 [dumpfile] "/tmp/wave.vcd"
-[dumpfile_mtime] "Tue Mar  2 06:24:37 2021"
-[dumpfile_size] 23927
+[dumpfile_mtime] "Wed Mar  3 06:01:01 2021"
+[dumpfile_size] 29240
 [savefile] "/home/simon/src/verilog/pixl/waves.gtkw"
-[timestart] 0
-[size] 3198 1073
+[timestart] 2013000
+[size] 3203 1561
 [pos] -1 -1
-*-17.927816 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-17.151251 3462500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] pixl_tb.
 [treeopen] pixl_tb.dut.
-[treeopen] pixl_tb.dut.monitor.
-[treeopen] pixl_tb.dut.monitor.map.
-[sst_width] 214
+[treeopen] pixl_tb.dut.bus.
+[treeopen] pixl_tb.dut.bus.map.
+[sst_width] 221
 [signals_width] 160
 [sst_expanded] 1
-[sst_vpaned_height] 318
-@28
-pixl_tb.dut.monitor.clk200
-pixl_tb.dut.monitor.a8_clk
-pixl_tb.dut.monitor.a8_rst_n
+[sst_vpaned_height] 359
 @200
 -
-@23
-pixl_tb.dut.monitor.pagemap[255:0]
+@28
+pixl_tb.dut.bus.clk200
+pixl_tb.dut.bus.a8_clk
+pixl_tb.dut.bus.a8_rst_n
+pixl_tb.dut.bus.a8_clk_falling
+pixl_tb.dut.bus.a8_clk_rising
+@200
+-
+-a8 bus
+@22
+pixl_tb.dut.bus.a8_addr[15:0]
+pixl_tb.dut.bus.a8_data[7:0]
+@28
+pixl_tb.dut.bus.a8_rw_n
+@200
+-
+-cfg write
+@28
+pixl_tb.dut.bus.write_valid
+pixl_tb.dut.bus.ap_write
+pixl_tb.dut.bus.cfg_write
+@200
+-
+-cfg read
+@28
+pixl_tb.dut.bus.read_ok
+pixl_tb.dut.bus.ap_read
+pixl_tb.dut.bus.cfg_read
+@200
+-
+-cfg data
+@22
+pixl_tb.dut.bus.cfg_addr[8:0]
+@28
+pixl_tb.dut.bus.cfg_we
+@22
+pixl_tb.dut.bus.cfg_wdata[7:0]
+pixl_tb.dut.bus.cfg_rdata[7:0]
+@28
+pixl_tb.dut.bus.cfg_read_op
+@200
+-
+-results
+@28
+pixl_tb.dut.bus.drive_read
+@22
+pixl_tb.dut.bus.cfg_result[7:0]
+pixl_tb.dut.bus.result[7:0]
+@200
+-
 [pattern_trace] 1
 [pattern_trace] 0

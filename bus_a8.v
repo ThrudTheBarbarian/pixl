@@ -37,6 +37,7 @@ module bus_a8
 	input				a8_rd5,			// A8 rd5 cartridge signal
 	input				a8_rd4,			// A8 rd4 cartridge signal
 	input				a8_ref_n,		// A8 Dram refresh (/REF) signal
+	
 	output reg			a8_mpd_n,		// A8 Math-Pak Disable (/MPD) signal
 	output reg			a8_extsel_n		// A8 external selection signal
     );
@@ -49,25 +50,51 @@ module bus_a8
 	localparam 	TICK_BITS				= 7;		// Bits in the counter
 	localparam 	TICK_ADDRESS_VALID		= 33;		// Address now valid
 	localparam 	TICK_WRITE_VALID		= 82;		// Write data valid
+	localparam 	TICK_READ_VALID			= 95;		// Read data valid
 	
 	localparam	PAGE_MEM_AP				= 8'hd6;	// Memory apertures here
-
-    ///////////////////////////////////////////////////////////////////////////
-    // Define a vector of bits, where a '1' means that page is to be sourced
-    // via the FPGA rather than from the A8 itself. This is linked through
-    // to the page_map module
-    ///////////////////////////////////////////////////////////////////////////
-	reg		[7:0]		map_from;			// Holds the lowest page number
-	reg		[7:0]		map_size;			// Holds the number of pages
-	reg		[1:0]		map_op = `OP_NONE;	// Operation to perform
-	wire				map_valid;			// Whether the map is now useable
-	wire	[255:0]		pagemap;
+	localparam	PAGE_MEM_CFG			= 8'hd7;	// Config page
 	
     ///////////////////////////////////////////////////////////////////////////
     // Convenience bit-selections 
     ///////////////////////////////////////////////////////////////////////////
 	wire 	[7:0]		a8_addr_hi		= a8_addr[15:8];
 	wire	[7:0]		a8_addr_lo		= a8_addr[7:0];
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Results of operations  
+    ///////////////////////////////////////////////////////////////////////////
+	reg		[7:0]		result;				// The final result
+	reg		[7:0]		cfg_result;			// The result of reading cfg RAM
+	reg					result_valid;		// Whether to drive result
+	
+    ///////////////////////////////////////////////////////////////////////////
+    // Define a vector of bits, where a '1' means that page is to be sourced
+    // via the FPGA rather than from the A8 itself. This is linked through
+    // to the page_map module
+    ///////////////////////////////////////////////////////////////////////////
+	wire	[255:0]		pagemap;
+	
+    ///////////////////////////////////////////////////////////////////////////
+    // Instantiate module to update pagemap. Here, op ought to toggle as either
+    // `OP_ADD or `OP_DEL for a single clock, and the map will be updated when
+    // map_valid is true
+    ///////////////////////////////////////////////////////////////////////////
+	reg		[7:0]		map_from;			// Holds the lowest page number
+	reg		[7:0]		map_size;			// Holds the number of pages
+	reg		[1:0]		map_op = `OP_NONE;	// Operation to perform
+	wire				map_valid;			// Whether the map is now useable
+
+	page_map map
+		(
+		.clk200(clk200),
+		.a8_rst_n(a8_rst_n),
+		.op(map_op),
+		.from(map_from),
+		.size(map_size),
+		.valid(map_valid),
+		.map(pagemap)
+		);
 	
     ///////////////////////////////////////////////////////////////////////////
     // Sync a8_clk to the FPGA clock using a 3-bit shift register to avoid
@@ -86,7 +113,6 @@ module bus_a8
 	wire a8_clk_rising		= (clkDetect[2:1]==2'b01);   
 	wire a8_clk_falling		= (clkDetect[2:1]==2'b10);  
 
-	
     ///////////////////////////////////////////////////////////////////////////
     // Monitor the bus by doing various things at various times
     ///////////////////////////////////////////////////////////////////////////
@@ -106,7 +132,7 @@ module bus_a8
 				else
 					ticks	<= ticks + 1;
 			end
-
+	
     ///////////////////////////////////////////////////////////////////////////
     // Monitor: check to see if EXTSEL needs assertion 
     ///////////////////////////////////////////////////////////////////////////
@@ -121,8 +147,24 @@ module bus_a8
 
 		else if (a8_clk_falling == 1'b1)
 			a8_extsel_n <= 1'b1;
-	
 
+    ///////////////////////////////////////////////////////////////////////////
+    // Add some backing ram for the $D600 -> $D7FF area in the A8 
+    ///////////////////////////////////////////////////////////////////////////
+	reg		[8:0]		cfg_addr;		// address to use for config RAM
+	reg					cfg_we;			// Write-enable for config RAM access
+	reg		[7:0]		cfg_wdata;		// Data to write to config RAM
+	wire	[7:0]		cfg_rdata;		// Data read from config RAM 
+	
+	cfg_ram cfg
+		(
+		.clk200(clk200),
+		.addr(cfg_addr),
+		.we(cfg_we),
+		.wdata(cfg_wdata),
+		.rdata(cfg_rdata)
+		);
+	
     ///////////////////////////////////////////////////////////////////////////
     // Monitor: If we have a write to D6xx then we're altering some aspect of
     // the page structure. Memory apertures are 16-bytes long and start at
@@ -136,35 +178,81 @@ module bus_a8
     // $+0009 [2]	: Y position in lines within the defined descriptor range
     // $+000B [2]	: Width in bytes within the defined descriptor range
     // $+000D [2]	: Height in lines within the defined descriptor range
+    // $+000F [1]   : Flags for this memory aperture
 	// 
     ///////////////////////////////////////////////////////////////////////////
-	wire writeValid		= (ticks == TICK_WRITE_VALID);
+	wire write_valid	= (ticks == TICK_WRITE_VALID) & (a8_rw_n == 1'b0);
+	wire ap_write 		= write_valid & (a8_addr_hi == PAGE_MEM_AP);
+	wire cfg_write		= write_valid & (a8_addr_hi == PAGE_MEM_CFG);
 
-
-	wire apWrite = (a8_rw_n == 1'b0)
-				 & (a8_addr_hi == PAGE_MEM_AP)
-				 & (writeValid == 1'b1);
+	wire read_ok		= (ticks == TICK_ADDRESS_VALID) & (a8_rw_n == 1'b1);
+	wire ap_read 		= read_ok & (a8_addr_hi == PAGE_MEM_AP);
+	wire cfg_read		= read_ok & (a8_addr_hi == PAGE_MEM_CFG);
+	reg	 cfg_read_op	= 1'b0;
 	
-	// Instantiate module to update page-map. Pass in pagemap as wire to
-	// reg in module, as well as apWrite as a start signal and a8_addr_lo
-	// and a8_data
+	always @ (posedge clk200)
+		begin
+			if (a8_rst_n == 1'b0)
+				begin
+					cfg_we 					<= 1'b0;
+					cfg_read_op				<= 1'b0;
+				end
+			else
+				begin
+					// Do we have a config write ?
+					if (ap_write | cfg_write)
+						begin
+							cfg_addr 		<= {cfg_write, a8_addr_lo};
+							cfg_we			<= 1'b1;
+							cfg_wdata		<= a8_data;
+							cfg_read_op		<= 1'b0;
+						end
+						
+					// Do we have a config read ?
+					else if (ap_read | cfg_read)
+						begin
+							cfg_addr 		<= {cfg_read, a8_addr_lo};
+							cfg_we			<= 1'b0;
+							cfg_read_op		<= 1'b1;
+						end
+					
+					// Reset at the end of the cycle
+					else if (a8_clk_falling)
+						cfg_read_op			<= 1'b0;
+						
+					// Delayed read result by 1 clock cycle
+					else if (cfg_read_op)
+						begin
+							cfg_result		<= cfg_rdata;
+						end
+					
+					// Default is to not write to RAM
+					else
+						cfg_we				<= 1'b0;
+				end
+		end	
+
+
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Handle the mux of all the possible sources of data 
+    ///////////////////////////////////////////////////////////////////////////
+    wire drive_read		= (ticks == TICK_READ_VALID) & (a8_rw_n == 1'b1);
+    
+	always @ (posedge clk200)
+		begin
+			if (a8_rst_n == 1'b0)
+				begin
+					result_valid 	<= 1'b0;
+					result			<= 8'b0;
+				end
+			else if (drive_read)
+				result 				<= (cfg_read_op) ? cfg_result
+									:  8'bz;
+			
+			else if (a8_clk_falling)
+				result				<= 8'bz;
 				
-	page_map map
-		(
-		.clk200(clk200),
-		.a8_rst_n(a8_rst_n),
-		.op(map_op),
-		.from(map_from),
-		.size(map_size),
-		.valid(map_valid),
-		.map(pagemap)
-		);
+		end
 		
-	// Module should use 2-step selection/shift of all-ones / all-zeros in
-	// case stmt and use [ -: ] selection syntax
-	
-	// Also need to persist these values in register-space in the FPGA so
-	// we can manipulate them easily. Make each an 'aperture' module
-	
-	
 endmodule

@@ -1,4 +1,4 @@
-MODS1	= pixl_tb pixl bus_a8 page_map mask_ram
+MODS1	= pixl_tb pixl bus_a8 page_map mask_ram cfg_ram
 SRCS1	= $(addsuffix .v, $(MODS1))
 PROG1	= /tmp/pixl.bin
 

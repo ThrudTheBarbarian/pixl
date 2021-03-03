@@ -63,23 +63,28 @@ module pixl_tb;
             		a8_rd4		= 1'b0;
             		a8_ref_n	= 1'b1;
             		
-					
+			// Enter a reset cycle		
 			#576 	a8_rst_n	= 1'b0;
 			
 			#576 	a8_rst_n	= 1'b1;
 			
-			#576 	
-            		a8_addr		= 16'h600;
-            		a8_data		= 8'h70;
-
-			#576 	
-            		a8_addr		= 16'hd600;
-            		a8_data		= 8'h90;
+			// Write to memory-aperture 0 : set start
+			#576 	a8_addr		= 16'hd604;
+            		a8_data		= 8'h20;
             		a8_rw_n		= 1'b0;
-			
-			#576 	
-					a8_rw_n		= 1'b1;
 
+			// Write to memory-aperture 0 : set size
+			#576 	a8_addr		= 16'hd605;
+            		a8_data		= 8'h10;
+
+			// Disable write, will do a read			
+			#576 	a8_rw_n		= 1'b1;
+					a8_addr		= 16'hd604;
+					
+			// Read elsewhere			
+			#576	a8_addr	 	= 16'h600;
+
+			// Finish
             #576 	$finish;
 		end
 
@@ -88,7 +93,7 @@ module pixl_tb;
 	// Toggle the clocks indefinitely
 	///////////////////////////////////////////////////////////////////////////
     always 
-        	#2.5 		clk200 = ~clk200;
+        	#2.5 	clk200 = ~clk200;
     always 
 			#288	a8_clk = ~a8_clk;
 endmodule
